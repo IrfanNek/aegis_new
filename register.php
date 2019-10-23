@@ -5,6 +5,7 @@
     <link rel = "stylesheet" href="./css/register.css">
     <link rel = "stylesheet" href="./css/reset.css">
     <link rel = "stylesheet" href="./css/global.css">
+    <title>Preregister Visitor</title>
 </head>
 <body>
     <div class="main-container">

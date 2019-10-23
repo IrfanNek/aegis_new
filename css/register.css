@@ -33,7 +33,74 @@
 }
 
 .qr-container{
-	padding:5px;
+	padding:2px;
 	margin-top:25px;
-	border:1px solid black;
+	width:180px;
+}
+
+.qrscanner-container .qr-container{
+	width: 150px;
+	padding:0;
+	border:none;
+	margin-top:0;
+}
+
+.qr-container img{
+	width:100%;
+	height:100%;
+}
+
+.scanQR-button{
+	margin-top:50px;
+	padding:5px 10px;
+	background-color: #d6a916;
+	color:white;
+	width:60%;
+	border-radius: 5px;
+	border:none;
+	text-align: center;
+}
+
+.scanQR-button input{
+	display:none;
+}
+
+#hidden-form{
+	display:none;
+}
+
+.field-container{
+	width:90%;
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:20px;
+}
+
+.field-name{
+	width:40%;
+	font-weight:bold;
+	font-size:9pt;
+}
+
+.field-value{
+	width:50%;
+
+	align-self: flex-start;
+}
+
+.field-value input{
+	width:100%;
+	font-size:8pt;
+}
+
+.clockin-button{
+	margin-top:20px;
+	padding:5px 10px;
+	background-color: #d6a916;
+	color:white;
+	width:60%;
+	border-radius: 5px;
+	border:none;
+	text-align: center;
+	cursor:pointer;
 }
