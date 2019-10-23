@@ -1,0 +1,39 @@
+
+
+
+.input-container{
+	text-align: center;
+	margin-bottom:5px;
+}
+
+.input-container h1{
+	font-size:10pt;
+	margin-bottom:2px;
+	font-weight:bold;
+}
+
+.input-container input{
+	width:80%;
+}
+
+.register-button{
+	margin-top:10px;
+	background-color: #d6a916;
+	color:white;
+	padding: 8px 20px;
+	border-radius:5px;
+	border:none;
+}
+
+.qr-text{
+	color: #7b5f04;
+	font-weight:bold;
+	font-size:11pt;
+	text-align:center;
+}
+
+.qr-container{
+	padding:5px;
+	margin-top:25px;
+	border:1px solid black;
+}
