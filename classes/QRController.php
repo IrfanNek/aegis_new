@@ -34,6 +34,13 @@ include "./qrcode/qrlib.php";
             $this->_data = $filename;
         }
 
+        public function clockTime($fields = array(), $nic){
+            if(!$this->_db->update("preregisters",$fields,"nic",$nic)){
+                throw new Exception("There was an error");
+            }
+            return true;
+        }
+
         public function data(){
             return $this->_data;
         }

@@ -12,7 +12,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Clock In</title>
+        <title>Clock Out</title>
         <link rel = "stylesheet" href="./css/register.css">
         <link rel = "stylesheet" href="./css/reset.css">
         <link rel = "stylesheet" href="./css/global.css">
@@ -50,8 +50,9 @@
                     <input type="text" value="<?php echo $email?  $email : "" ?>" disabled>
                 </div>
             </div>
+
             <div class="clockin-button">
-                Clock In
+                Clock Out
             </div>
         </div>
         <script src="./js/jquery-1.10.2.min.js"></script>
@@ -59,7 +60,7 @@
         <script>
             $(".clockin-button").click(function(){
                 const nic = $("#nic").val();
-                const action = "clockin";
+                const action = "clockout";
                 $.ajax({
                     url : "clockVisitor.php",
                     method: "POST",

@@ -13,27 +13,27 @@
         <form action="generateQR.php" method="post">
             <div class="input-container">
                 <h1>Host Name</h1>
-                <input type="text" name="host_name">
+                <input type="text" name="host_name" required>
             </div>
             <div class="input-container">
                 <h1>Visitor Name</h1>
-                <input type="text" name="visitor_name">
+                <input type="text" name="visitor_name" required>
             </div>
             <div class="input-container">
                 <h1>Host Address</h1>
-                <input type="text" name="address">
+                <input type="text" name="address" required>
             </div>
             <div class="input-container">
                 <h1>Host Phone Number</h1>
-                <input type="text" name="phone">
+                <input type="number" name="phone" required>
             </div>
             <div class="input-container">
                 <h1>Host E-mail</h1>
-                <input type="text" name="email">
+                <input type="email" name="email" required>
             </div>
             <div class="input-container">
                 <h1> Visitor NIC/Passport</h1>
-                <input type="text" name="nic">
+                <input type="text" name="nic" required>
             </div>
             <div class="input-container">
                 <button type="submit" class="register-button">Register</button>
